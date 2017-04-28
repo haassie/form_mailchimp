@@ -1,0 +1,25 @@
+{
+  "name": "haassie/form_mailchimp",
+  "description": "Mailchimp integration for EXT:form",
+  "type": "typo3-cms-extension",
+  "license": "GPL-3.0",
+  "keywords": [
+    "TYPO3 CMS",
+    "Form",
+    "Mailchimp"
+  ],
+  "authors": [
+    {
+      "name": "Richard Haeser",
+      "email": "richardhaeser@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Haassie\\FormMailchimp\\": "Classes/"
+    }
+  },
+  "require": {
+    "mailchimp/mailchimp": "^2.0"
+  }
+}
